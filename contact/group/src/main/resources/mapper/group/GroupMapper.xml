@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sdjzu.group.mapper.GroupMapper">
+
+    <select id="selectGroupList" resultType="com.sdjzu.group.domain.Group">
+        SELECT group1.group_id, group1.group_name FROM group1
+    </select>
+    <select id="selectGroupById" parameterType="Integer" resultType="com.sdjzu.group.domain.Group">
+        SELECT group1.group_id, group1.group_name FROM group1 WHERE group_id=#{groupId}
+    </select>
+
+    <insert id="insertGroup" parameterType="object">
+        INSERT INTO group1(group_name) VALUES (#{groupName})
+    </insert>
+
+    <delete id="deleteGroupById" parameterType="object">
+        DELETE FROM group1 WHERE group_id=#{groupId}
+    </delete>
+
+    <update id="updateGroup" parameterType="Group">
+        UPDATE group1 set group_name=#{groupName},group_id=#{groupId} WHERE group_id=#{groupId}
+    </update>
+
+
+</mapper>

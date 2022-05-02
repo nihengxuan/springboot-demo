@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sdjzu.group.mapper.UserMapper">
+    <select id="login" resultType="com.sdjzu.group.domain.User">
+        select * from user where username = #{username} and password = #{password}
+    </select>
+    <select id="selectUserByName" resultType="com.sdjzu.group.domain.User">
+        select * from user
+        <where>
+            <if test="username != null and username != ''">
+                and username = #{username}
+            </if>
+        </where>
+    </select>
+    <resultMap id="userMap" type="com.sdjzu.group.domain.User">
+        <result property="id" column="id"/>
+        <result property="username" column="username"/>
+        <result property="password" column="password"/>
+        <result property="nickName" column="nickName"/>
+        <result property="age" column="age"/>
+        <result property="sex" column="sex"/>
+        <result property="address" column="address"/>
+        <collection property="booklist" javaType="ArrayList" ofType="com.sdjzu.group.domain.Book">
+            <result column="b_id" property="id"/>
+            <result column="b_name" property="name"/>
+            <result column="b_price" property="price"/>
+        </collection>
+    </resultMap>
+    <select id="selectList" resultType="com.sdjzu.group.domain.User" resultMap="userMap">
+        select user.*,book.id as b_id,book.name as b_name,book.price as b_price from user
+        left join book on user.id = book.u_id
+
+    </select>
+    <select id="selectById" resultType="com.sdjzu.group.domain.User">
+        select * from user
+        <where>
+            <if test="username != null and username != ''">
+                and id = #{id}
+            </if>
+        </where>
+    </select>
+    <select id="selectUserListByName" resultType="com.sdjzu.group.domain.User">
+        select * from user
+        <where>
+            <if test="username != null and username != ''">
+                and username like concat('%',#{username},'%')
+            </if>
+        </where>
+    </select>
+    <insert id="register" >
+        insert into user (id,username,password,nickName,age,sex,address,role) values
+        (#{id},#{username},#{password},#{nickName},#{age},#{sex},#{address},#{role})
+    </insert>
+    <insert id="insertUser" >
+        insert into user (id,username,password,nickName,age,sex,address,role) values
+        (#{id},#{username},#{password},#{nickName},#{age},#{sex},#{address},#{role})
+    </insert>
+
+    <update id="updateUser">
+        update user set username=#{username},password=#{password},nickName=#{nickName},age=#{age},sex=#{sex},address=#{address},role=#{role} where id=#{id}
+    </update>
+    <delete id="deleteUserById" >
+        delete from user where id = #{id}
+    </delete>
+</mapper>
