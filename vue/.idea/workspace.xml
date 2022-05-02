@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="52e6efb9-6838-4822-9aca-f58a06bf50cf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot1/src/main/java/cn/sdjzu/springboot/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot1/src/main/java/cn/sdjzu/springboot/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot1/src/main/java/cn/sdjzu/springboot/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot1/src/main/java/cn/sdjzu/springboot/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot1/src/main/java/cn/sdjzu/springboot/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot1/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/Layout.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Book.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Login.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/News.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Person.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Register.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/permission.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue.config.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Vue Single File Component" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:\IntelliJ IDEA 2020.2.3\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="23EivgSAZqDWQiFPFMc33IhPYVZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../jwtDemo/demo" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\lenovo\Desktop\springboot+vue\spring-boot-demo\vue\src\views" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lenovo\Desktop\springboot+vue\spring-boot-demo\vue\src\views" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="52e6efb9-6838-4822-9aca-f58a06bf50cf" name="Default Changelist" comment="" />
+      <created>1641305878258</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1641305878258</updated>
+      <workItem from="1641305879550" duration="303000" />
+      <workItem from="1641306268215" duration="4111000" />
+      <workItem from="1641310796848" duration="2544000" />
+      <workItem from="1641366390320" duration="7669000" />
+      <workItem from="1641438305657" duration="16832000" />
+      <workItem from="1641526934715" duration="4343000" />
+      <workItem from="1641543686901" duration="1612000" />
+      <workItem from="1641548018371" duration="2339000" />
+      <workItem from="1641562756127" duration="787000" />
+      <workItem from="1641564688997" duration="6899000" />
+      <workItem from="1641626910022" duration="16351000" />
+      <workItem from="1641706650349" duration="3205000" />
+      <workItem from="1641720829054" duration="4021000" />
+      <workItem from="1641798677510" duration="8727000" />
+      <workItem from="1641882279216" duration="16142000" />
+      <workItem from="1641965548279" duration="2734000" />
+      <workItem from="1643300364740" duration="726000" />
+      <workItem from="1643974898535" duration="5553000" />
+      <workItem from="1644039721478" duration="6986000" />
+      <workItem from="1644069142790" duration="2294000" />
+      <workItem from="1644072213337" duration="65000" />
+      <workItem from="1644073094905" duration="606000" />
+      <workItem from="1644583072871" duration="1257000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="686" y="211" key="FileChooserDialogImpl" timestamp="1644047993381">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1641527150402" />
+    <state x="686" y="211" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1644047993381" />
+    <state x="270" y="57" key="SettingsEditor" timestamp="1641306184977">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="270" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1641306184977" />
+    <state x="531" y="236" key="run.anything.popup" timestamp="1641925754212">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1641401774278" />
+    <state x="531" y="236" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1641925754212" />
+    <state x="539" y="183" width="840" height="856" key="search.everywhere.popup" timestamp="1641924221364">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1641538254492" />
+    <state x="539" y="183" width="840" height="856" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1641924221364" />
+  </component>
+</project>
